@@ -1,0 +1,12 @@
+body html{
+    overflow-x: hidden;
+}
+.imgss{
+    height: 100%;
+    position: relative;
+    display: block;
+
+}
+.caption{
+    background-color: white
+}
