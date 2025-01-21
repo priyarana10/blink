@@ -6,54 +6,71 @@
     padding-bottom: 100px;
 }
 .page{
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
     display: flex;
     gap: 20px;
 }
+.leftside{
+    max-width: 750px;
+}
+.rightside{
+    max-width: 750px;
+}
 .screen{
-    width: 700px;
+    width: 100%;
     height: 100%;
     border-radius: 30px;
 }
 .two2{
     display: flex;
+    margin-top: 20px;
+    font-size: 10px;
+
 }
 .part1{
     background-color: white;
     border-radius: 20px;
-    height: 150px;
-    width: 260px;
-    margin-top: 20px;
-    /* padding: 30px; */
+    padding-left: 14px;
+ 
 }
 .part2{
     background-color: white;
     border-radius: 20px;
-    height: 150px;
-    width: 260px;
-    margin-top: 20px;
-    margin-left: 20px;
-    /* padding: 30px; */
+   padding: 20px;
+    display: column;
     line-height: 0.50;
 }
 .one1{
     background-color: white;
     border-radius: 20px;
-    height: 300px;
-    width: 650px;
     
-
 }
 .numm{
     color: rgb(91, 193, 172);
     font-size: 40px;
 }
+.num1{
+    font-size: 20px;
+}
 .secondline{
     color:rgb(91, 193, 172) ;
     font-size: 20px;
+    line-height: 0.20   ;
 }
 .heading{
     color: darkgrey;
     font-size: 50px;
+}
+.head2{
+    color: rgb(91, 193, 172);
+    font-size: 30px;
+    line-height: 0.20; 
+}
+.para{
+    font-size: 20px;
+    letter-spacing: 0.75;
+}
+.ull{
+    list-style: hide;
 }
