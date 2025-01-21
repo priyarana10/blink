@@ -2,11 +2,40 @@ body html{
     overflow-x: hidden;
 }
 .imgss{
-    height: 100%;
+    width: 100%;
+    min-height: 680px;
     position: relative;
-    display: block;
 
 }
 .caption{
-    background-color: white
+    background-color: white;
+    position: absolute;
+    top: 360px;
+    right: 10px;
+    min-width: 680px;
+    min-height: 100%;
+    
 }
+.human{
+    rotate: 90deg;
+}
+/* .carosal{
+    justify-content: space-evenly;
+    
+} */
+/* .pre{
+    rotate: 180deg;
+    border-radius: 50%;
+    border: hidden;
+    position: absolute;
+    top: 500px;
+    background-color: darkgray;
+}
+.next{
+    border-radius: 50%;
+    border: hidden;
+    position: absolute;
+    top: 500px;
+    right: 10px; 
+    background-color: darkgray; 
+} */
