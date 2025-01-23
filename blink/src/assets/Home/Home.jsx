@@ -7,8 +7,8 @@ const Home = () => {
                 <div className="mainimg">
                     <img src="public/imagehome.jpg" alt="" className='imgss' />
                     <div className="caption">
-                        <h1 className="human"></h1>
-                        <p className="lines"></p>
+                        <h1 className="human">Humanity</h1>
+                        <p className="lines">Please Tell your Friend About our Website </p>
                     </div>
                 </div>
             </div>

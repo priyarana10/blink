@@ -6,13 +6,13 @@
     padding-bottom: 100px;
 }
 .page{
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     gap: 20px;
 }
 .leftside{
-    max-width: 750px;
+    max-width: 637px;
 }
 .rightside{
     max-width: 750px;
@@ -21,42 +21,58 @@
     width: 100%;
     height: 100%;
     border-radius: 30px;
+    object-fit: cover;
 }
 .two2{
     display: flex;
     margin-top: 20px;
     font-size: 10px;
+    gap: 20px;
 
 }
 .part1{
     background-color: white;
     border-radius: 20px;
-    padding-left: 14px;
+    padding: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
  
 }
 .part2{
     background-color: white;
     border-radius: 20px;
-   padding: 20px;
-    display: column;
-    line-height: 0.50;
+    padding: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    line-height: 0.70;
+ 
 }
+
 .one1{
     background-color: white;
     border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+   
     
 }
 .numm{
     color: rgb(91, 193, 172);
     font-size: 40px;
+    text-align: center;
 }
 .num1{
     font-size: 20px;
+    text-align: center;
 }
 .secondline{
     color:rgb(91, 193, 172) ;
     font-size: 20px;
-    line-height: 0.20   ;
+    line-height: 0.20;
 }
 .heading{
     color: darkgrey;

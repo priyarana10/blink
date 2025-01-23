@@ -1,7 +1,6 @@
 .nav{
     background-color: white;
     width: auto;
-    height: 100px;
 }
 .menu{
     max-width: 1300px;
@@ -41,4 +40,45 @@ small{
 .list:hover{
     color: rgb(91, 193, 172);
 }
-
+.donate{
+    background: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) {
+   .menu{
+    font-size: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: none;
+   }
+   .org{
+    font-size: 10px;
+   }
+   .list{
+    display: contents;
+   }
+   .nav{
+    background: transparent;
+   }
+   .logo{
+    align-items: center;
+   }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .menu{
+        max-width: 700px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        display: none;
+    }
+    .list{
+        display: block;
+    }
+}
