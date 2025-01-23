@@ -2,7 +2,7 @@ import React from 'react'
 import "./About.css"
 const About = () => {
   return (
-    <div className="about">
+    <main className="about">
         <div className="page">
         <div className="leftside">
             <img src="public/group.jpg" alt="" className="screen" />
@@ -34,7 +34,7 @@ const About = () => {
             </div>
         </div>
         </div>
-    </div>
+    </main>
   )
 }
 

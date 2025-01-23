@@ -1,0 +1,84 @@
+.start{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+.latest{
+    font-size: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.catagory-img{
+    width: 71%;
+    height: auto;
+    vertical-align: middle;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.catagory{
+    margin-top: 50px;
+}
+.catagory-lifestyle{
+    background-color: #5a6f80;
+    width: 68%;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    gap: 30px;
+}
+.catagory-href{
+    text-decoration: none;
+    color: white;
+}
+.catagory-href:hover{
+    color:rgb(91, 193, 172)  ;
+}
+.catagory-info{
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+.catagory-info-date{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 0;
+}
+.admin{
+    width:30px;
+    height: 30px;
+    margin-top: 9px;
+}
+.commen{
+    margin-top: 15px;
+    font-size: 20px ;
+}
+.tittle-cata{
+    font-size: 28px;
+    vertical-align: top;
+}
+.tittle-cata:hover{
+    color: rgb(91, 193, 172);
+    cursor: pointer;
+}
+.para-cata{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -20px;
+
+}
+.catagory-tittle{
+    margin-top: -40px;
+}
+.searchbutton{
+    display: flex;
+    margin-top: 50px;
+}
+.search-ico{
+    height: 20px;
+    background: transparent;
+    /* margin-top: 50px; */
+}
+.

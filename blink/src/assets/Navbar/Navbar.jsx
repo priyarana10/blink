@@ -3,7 +3,7 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <>
-    <div className="nav">
+    <nav className="nav">
         <div className="menu">
             <div className="logo">
                 <img src="public/logo.png" alt="" className="brand" />
@@ -24,7 +24,7 @@ const Navbar = () => {
              </ul>
             </div>
         </div>
-    </div>
+    </nav>
     </>
   )
 }

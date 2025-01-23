@@ -1,0 +1,55 @@
+.save{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.back{
+    background-color: #f0f8ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.impact{
+    font-size: 50px;
+    align-items: right;
+    padding-left: 150px;
+    opacity: 0.6;
+}
+.save{
+    display: flex;
+    justify-content: space-between;
+}
+.tex3{
+    font-size: 16px;
+    padding: 100px;
+}
+.tex3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.donations{
+    margin-right: 30px;
+    color: gray;
+}
+.donations2{
+    margin-right: 30px;
+    border: solid 1px transparent;
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 25px;
+    line-height: normal;
+}
+.donations2:hover{
+    background-color: rgb(91, 193, 172);
+}
+.donations:hover{
+    color: rgb(91, 193, 172);
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) {
+  .save{
+    flex-wrap: wrap;
+    justify-content: center
+  }
+}
