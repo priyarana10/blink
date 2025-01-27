@@ -1,0 +1,157 @@
+.catas{
+    margin-top: 40px;
+    font-size: 32px;
+    color: rgb(91, 193, 172);
+}
+.catas1{
+    margin-top: 40px;
+    font-size: 46px;
+    color: rgb(91, 193, 172);
+}
+.list-news{
+    background-color: #f0f8ff;
+    border-radius: 20px;
+    height: 500px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.email{
+    box-shadow: none;
+    border: 0;
+    color: #717275;
+    margin-bottom: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 0px;
+    outline: none;
+    display: block;
+    width: 90%;
+    padding: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.side-one{
+    /* align-items: center; */
+    padding: 90px;
+    /* line-height: 0.70; */
+}
+.side-two{
+    padding: 60px;
+}
+.subs2{
+    background-color: #5a6f80;
+    color: #e9eaeb;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.area{
+    width: 90%;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5; 
+    border: none;  
+}
+.fullname{
+    display: flex;
+    gap: 20px;
+}
+.hr-office{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hr img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.hr{
+    display: flex;
+    gap: 20px;
+    line-height: 1.4;
+}
+.main-line{
+    height: 0.80px;
+    width: 100%;
+    background-color:#5a6f80 ;
+    margin-top: 30px;
+}
+.number img{
+    width: 20px;
+    margin-right: 20px;
+}
+.number{
+    color:#5a6f80;
+    line-height: 0.50;
+}
+.number:hover{
+    color: #5bc1ac;
+}
+.contacts{
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .catas, .catas1 {
+      font-size: 24px;
+    }
+  
+    .list-news {
+      height: auto; 
+      padding: 20px;
+    }
+  
+    .side-one, .side-two {
+      padding: 40px 20px;
+    }
+  
+    .hr-office {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hr {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 468px) {
+    .catas, .catas1 {
+      font-size: 20px;
+    }
+  
+    .side-one, .side-two {
+      padding: 20px 10px;
+    }
+  
+    .subs2 {
+      font-size: 16px;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .catas, .catas1 {
+      font-size: 18px;
+    }
+  
+    .side-one, .side-two {
+      padding: 15px 5px;
+    }
+  
+    .subs2 {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }

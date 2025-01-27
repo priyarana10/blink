@@ -5,8 +5,8 @@
 }
 .center{
     display: flex;
-    gap: 20px;
-    max-width: 1300px;
+    gap: 40px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 .causes{
@@ -29,7 +29,7 @@
     background:transparent;
 }
 .all{
-    padding: 20px;
+    padding: 35px;
     padding-top: 0;
 }
 .linesss{
@@ -101,10 +101,96 @@
 .donat:hover{
     background-color: rgb(91, 193, 172);
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 768px) {
-  .center{
-    flex-wrap: wrap;
+@media (max-width: 720px) {
+    .center {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .headcause {
+      font-size: 36px;
+    }
+  
+    .causes img {
+      height: 50%;
+    }
+  
+    .all {
+      padding: 25px;
+    }
+  
+    .grap {
+      font-size: 18px;
+    }
+  
+    .rates {
+      flex-direction: column;
+    }
+  
+    .educat {
+      font-size: 20px;
+    }
+  
+    .donat {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
   }
-}
+  
+  @media (max-width: 468px) {
+    .center {
+      gap: 20px;
+    }
+  
+    .headcause {
+      font-size: 30px;
+    }
+  
+    .causes img {
+      height: 40%;
+    }
+  
+    .all {
+      padding: 20px;
+    }
+  
+    .grap {
+      font-size: 16px;
+    }
+  
+    .educat {
+      font-size: 18px;
+    }
+  
+    .donat {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .headcause {
+      font-size: 24px;
+    }
+  
+    .causes img {
+      height: 30%;
+    }
+  
+    .all {
+      padding: 15px;
+    }
+  
+    .grap {
+      font-size: 14px;
+    }
+  
+    .educat {
+      font-size: 16px;
+    }
+  
+    .donat {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }

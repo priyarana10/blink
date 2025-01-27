@@ -1,5 +1,8 @@
+.wlcms{
+  padding: 100px;
+}
 .wlcm{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size: 50px;
     text-align: center;
     color: black;

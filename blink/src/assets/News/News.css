@@ -1,28 +1,38 @@
 .start{
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    gap:90px
+}
+.left-side{
+    max-width: 800px;
+}
+.right-side{
+    max-width: 500px;
 }
 .latest{
     font-size: 50px;
     max-width: 1300px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .catagory-img{
-    width: 71%;
+    width: 107%;
     height: auto;
     vertical-align: middle;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .catagory{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .catagory-lifestyle{
     background-color: #5a6f80;
-    width: 68%;
+    width: 102%;
+    padding: 10px 20px;
     color: white;
-    padding: 15px;
+    /* padding: 15px; */
     font-size: 16px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -37,7 +47,7 @@
 }
 .catagory-info{
     display: flex;
-    gap: 100px;
+    gap: 70px;
     padding: 10px;
     cursor: pointer;
 }
@@ -54,6 +64,7 @@
 .commen{
     margin-top: 15px;
     font-size: 20px ;
+    letter-spacing: 0.40;
 }
 .tittle-cata{
     font-size: 28px;
@@ -64,7 +75,7 @@
     cursor: pointer;
 }
 .para-cata{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     margin-top: -20px;
 
@@ -72,13 +83,171 @@
 .catagory-tittle{
     margin-top: -40px;
 }
-.searchbutton{
-    display: flex;
-    margin-top: 50px;
+.searchbutton button{
+    margin-top: 120px;
+    height: 50px;
+    padding: 20px;
+    background: transparent;
+    border: none;
+
 }
 .search-ico{
     height: 20px;
-    background: transparent;
-    /* margin-top: 50px; */
+    margin-top: 50px;
 }
-.
+.placeholder{
+    width: 400px;
+    height: 50px;
+    background-color: #f0f8ff;
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    
+}
+.right-tittle{
+    font-size: 40px;
+}
+.News-lists{
+    display:flex;
+    gap: 20px;
+}
+.News-lists2{
+    display:flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.newss{
+    max-width: 37%;
+    height: auto;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+.catas{
+    margin-top: 40px;
+    font-size: 26px;
+    color: rgb(91, 193, 172);
+}
+.catas-list{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 2;
+}
+.bage{
+    background-color:#5a6f80 ;
+    color: white;
+    border-radius: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: normal;
+}
+.tags{
+    text-decoration: none;
+    color: #5a6f80;
+    border: 1px solid #e9eaeb;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: normal;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px 15px;
+}
+.list-news{
+    background-color: #f0f8ff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.email{
+    box-shadow: none;
+    border: 0;
+    color: #717275;
+    margin-bottom: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    outline: none;
+    display: block;
+    width: 90%;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.subs{
+    background-color: #5a6f80;
+    color: #e9eaeb;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.subs:hover{
+    background-color:rgb(91, 193, 172) ;
+}
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+  
+    .logo-side img {
+      margin-bottom: 20px; 
+    }
+  
+    .direction {
+      margin-top: 40px;
+    }
+  
+    .lins {
+      column-count: 1; 
+    }
+  }
+  
+  @media (max-width: 468px) {
+    .container {
+      padding: 30px 10px;
+    }
+  
+    .logo-side img {
+      width: 80px; 
+    }
+  
+    .lins {
+      font-size: 16px;
+    }
+  
+    .get-direction {
+      padding: 10px 15px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .backg {
+      height: auto; 
+    }
+  
+    .container {
+      padding: 20px 5px;
+    }
+  
+    .logo-side img {
+      width: 60px; 
+    }
+  
+    .lins {
+      font-size: 14px;
+    }
+  
+    .get-direction {
+      padding: 8px 12px;
+    }
+  }
+
+
