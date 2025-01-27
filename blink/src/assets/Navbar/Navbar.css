@@ -41,15 +41,19 @@ small{
     color: black;
     font-size: 15px;
 }
-.list:hover{
+.list-ites:hover{
     color: rgb(91, 193, 172);
 }
-.donate{
+.donatess{
     background: transparent;
-    width: 100px;
-    height: 40px;
+   padding: 15px 25px;
     border-radius: 30px;
+    font-size: 16px;
+    border: 1px solid #f0f8ff;
     
+}
+.donatess:hover{
+    background-color:rgb(91, 193, 172) ;
 }
 @media only screen 
 and (min-device-width : 320px) 

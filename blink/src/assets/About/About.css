@@ -33,7 +33,7 @@
 .part1{
     background-color: white;
     border-radius: 20px;
-    padding: 30px;
+    padding: 40px;
     padding-bottom: 20px;
     width: 100%;
     height: 100%;
@@ -42,8 +42,8 @@
 .part2{
     background-color: white;
     border-radius: 20px;
-    padding: 30px;
-    padding-bottom: 20px;
+    padding: 40px;
+    padding-bottom: 49px;
     width: 100%;
     height: 100%;
     line-height: 0.70;
@@ -72,7 +72,7 @@
 .secondline{
     color:rgb(91, 193, 172) ;
     font-size: 20px;
-    line-height: 0.20;
+    /* line-height: 0.20; */
 }
 .heading{
     color: darkgrey;
@@ -81,7 +81,7 @@
 .head2{
     color: rgb(91, 193, 172);
     font-size: 30px;
-    line-height: 0.20; 
+    /* line-height: 0.20;  */
 }
 .para{
     font-size: 20px;
@@ -170,5 +170,11 @@
   
     .num1 {
       font-size: 12px;
+    }
+
+    .part1{
+      justify-content: center;
+      align-content: center;
+
     }
   }
