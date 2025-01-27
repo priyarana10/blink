@@ -1,5 +1,5 @@
 .save{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 .back{
@@ -45,11 +45,40 @@
 .donations:hover{
     color: rgb(91, 193, 172);
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 768px) {
-  .save{
-    flex-wrap: wrap;
-    justify-content: center
+@media (max-width: 768px) {
+    .save {
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px; 
+    }
+  
+    .impact {
+      text-align: center;
+      padding-left: 0;
+      margin-bottom: 30px; 
+    }
+  
+    .tex3 {
+      padding: 50px 20px;
+    }
   }
-}
+  
+  @media (max-width: 468px) {
+    .impact {
+      font-size: 40px;
+    }
+  
+    .tex3 {
+      padding: 30px 10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .impact {
+      font-size: 32px;
+    }
+  
+    .tex3 {
+      padding: 20px 5px;
+    }
+  }

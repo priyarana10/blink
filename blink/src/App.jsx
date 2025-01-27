@@ -8,6 +8,9 @@ import Founder from './assets/Founder/Founder'
 import Save from './assets/Savel/Save'
 import Causes from './assets/Causes/Causes'
 import News from './assets/News/News'
+import Customer from './assets/Customer/Customer'
+import Footer from './assets/Footer/Footer'
+import Contact from './assets/Contact/Contact'
 function App() {
  
 
@@ -21,6 +24,9 @@ function App() {
     <Save/>
     <Causes/>
     <News/>
+    <Customer/>
+    <Contact/>
+    <Footer/>
     </>
   )
 }

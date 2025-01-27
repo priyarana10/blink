@@ -1,6 +1,10 @@
+body{
+    font-family: sans-serif;
+}
 .nav{
     background-color: white;
     width: auto;
+    margin: 0;
 }
 .menu{
     max-width: 1300px;

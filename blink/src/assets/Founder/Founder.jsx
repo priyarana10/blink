@@ -3,7 +3,7 @@ import "./Founder.css"
 const Founder = () => {
     return (
         <>
-            <section>
+            <section className='founder'>
                 <div className="ones">
                     <div className="found">
                         <img src="public/sandychan.jpg" alt="" />
