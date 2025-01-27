@@ -8,7 +8,7 @@
     font-size: 46px;
     color: rgb(91, 193, 172);
 }
-.list-news{
+.list-news2{
     background-color: #f0f8ff;
     border-radius: 20px;
     height: 500px;
@@ -16,7 +16,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.email{
+.email1{
     box-shadow: none;
     border: 0;
     color: #717275;
@@ -26,7 +26,7 @@
     border-radius: 0px;
     outline: none;
     display: block;
-    width: auto;
+    width: 90%;
     padding: 30px;
     font-size: 1rem;
     font-weight: 400;
@@ -51,8 +51,12 @@
     padding: 20px;
     margin-top: 20px;
 }
+.subs2:hover{
+  background-color: rgb(91, 193, 172);
+  transition: 0.5s;
+}
 .area{
-    width: 90%;
+    width: 95%;
     padding: 20px;
     font-size: 1rem;
     font-weight: 400;
@@ -61,7 +65,7 @@
 }
 .fullname{
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 .hr-office{
     max-width: 1300px;

@@ -16,6 +16,7 @@
 .save{
     display: flex;
     justify-content: space-between;
+    padding: 50px;
 }
 .tex3{
     font-size: 16px;

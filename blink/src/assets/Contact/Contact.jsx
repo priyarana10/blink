@@ -43,14 +43,14 @@ const Contact = () => {
 
           </div>
           <div className="side-two">
-            <div className="list-news">
+            <div className="list-news2">
               <form action="">
                 <h2 className="catas">Newsletter Form</h2>
                 <div className="fullname">
-                  <input type="text" className="email" placeholder='Name' />
-                  <input type="text" className="email" placeholder='Surname' />
+                  <input type="text" className="email1" placeholder='Name' />
+                  <input type="text" className="email1" placeholder='Surname' />
                 </div>
-                <input type="text" placeholder="Email Address" className="email" />
+                <input type="text" placeholder="Email Address" className="email1" />
                 <textarea name="Comment" id="" placeholder='What can we help you.. ?' className='area'></textarea>
                 <button className="subs2">Send Message</button>
               </form>

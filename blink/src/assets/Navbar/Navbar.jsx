@@ -14,13 +14,13 @@ const Navbar = () => {
             </div>
             <div className="items">
             <ul className="list">
-                <li>Home</li> 
-                <li>About</li> 
-                <li>Causes</li>
-                <li>volunteer</li>
-                <li>News</li>
-                <li>Contact</li>
-                <button className='donate'>Donate</button>         
+                <li className='list-ites'>Home</li> 
+                <li className='list-ites'>About</li> 
+                <li className='list-ites'>Causes</li>
+                <li className='list-ites'>volunteer</li>
+                <li className='list-ites'>News</li>
+                <li className='list-ites'>Contact</li>
+                <button className='donatess'>Donate</button>         
              </ul>
             </div>
         </div>

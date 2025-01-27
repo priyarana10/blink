@@ -27,7 +27,7 @@ const Footer = () => {
 
 
             <div className="contacts">
-                <h5 className="lin">Contact Us</h5>
+                <h5 className="lin">Contact Information</h5>
                 <p className="number">
                     <img src="public/phone.png" alt="" />
                      120-240-9600

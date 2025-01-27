@@ -2,7 +2,7 @@
   padding: 100px;
 }
 .wlcm{
-    /* margin-top: 50px; */
+    margin-top: 50px;
     font-size: 50px;
     text-align: center;
     color: black;
@@ -11,7 +11,7 @@
 .card1:hover{
    box-shadow: 0px 10px 20px grey;
    border-radius: 30px;
-   transform: scale(0.75);
+   /* transition: ease-out 0.1s; */
 }
 .cards{
     max-width: 1400px;
@@ -28,6 +28,7 @@
 .imgs{
     padding: 33px;
     margin-left: 50px;
+    /* transition: ease-in 0.4s; */
 }
 .card1{
     width: 300px;
@@ -44,7 +45,7 @@ and (max-device-width : 480px) {
     font-size: 30px;
   }
   .cards{
-    /* display: block; */
+    display: block;
     flex-wrap: wrap;
     align-items: center;
 justify-content: center;
