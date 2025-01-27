@@ -11,12 +11,12 @@ const About = () => {
             <div className="one1">
                 <h1 className="heading">Our Story</h1>
                 <h4 className="secondline">Kind Heart Charity, Non-Profit Organization</h4>
-                <p className="para">This is a Bootstrap 5.2.2 CSS template for charity organization websites.<br></br> You can feel free to use it. Please tell your friends about TemplateMo<br></br> website. Thank you. HTML CSS files updated on 20 Oct 2022</p>
+                <p className="para">This is a Bootstrap 5.2.2 CSS template for charity organization websites.<br></br> You can feel free to use it. Please tell your friends about TemplateMo website. Thank you. HTML CSS files updated on 20 Oct 2022</p>
             </div>
             <div className="two2">
                 <div className="part1">
                     <h2 className="head2">Our Mission</h2>
-                    <p className="para">Sed leo nisl, posuere at<br></br> molestie ac, suscipit auctor<br></br> quis metus
+                    <p className="para">Sed leo nisl, posuere at molestie ac, suscipit auctor quis metus
                         <ul className='ull'>
                             <li>Charity Theme</li>
                             <li>Semantic HTML</li>

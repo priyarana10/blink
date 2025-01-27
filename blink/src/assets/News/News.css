@@ -84,9 +84,9 @@
     margin-top: -40px;
 }
 .searchbutton button{
-    margin-top: 70px;
+    /* margin-top: 70px; */
     height: 50px;
-    padding: 20px;
+    /* padding: 20px; */
     background: transparent;
     border: none;
 
@@ -196,83 +196,44 @@
 .subs:hover{
     background-color:rgb(91, 193, 172) ;
 }
-@media (max-width: 320px) and
- (max-width: 768px) {
-    .start {
-      flex-direction: column;
-      align-items: center;
-      gap: 50px;
-    }
-  
-    .left-side, .right-side {
-      width: 100%;
-      max-width: none;
-    }
-  
-    .latest {
-      font-size: 40px;
-      text-align: center;
-    }
-  
-    .catagory-img {
-      width: 100%; 
-    }
-  
-    .catagory-info {
-      flex-direction: column;
-      align-items: flex-start; 
-      gap: 20px;
-    }
-  
-    .searchbutton button {
-      margin-top: 50px;
-    }
-  
-    .placeholder {
-      width: 100%;
-    }
-  
-    .News-lists, .News-lists2 {
-      flex-direction: column; 
-    }
-  
-    .newss {
-      max-width: 100%; 
-    }
-    .latest {
-        font-size: 28px;
-      }
-    
-      .catagory-tittle {
-        font-size: 20px;
-      }
-    
-      .commen {
-        font-size: 16px;
-      }
-    
-      .catas {
-        font-size: 18px;
-      }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .start{
+    flex-direction: column;
   }
-  
-  @media (max-width: 468px) {
-    .latest {
-      font-size: 32px;
-    }
-  
-    .catagory-tittle {
-      font-size: 24px;
-    }
-  
-    .commen {
-      font-size: 18px;
-    }
-  
-    .catas {
-      font-size: 20px;
-    }
+  .para-cata{
+    font-size: 16px;
   }
+  .commen{
+     font-size: 10px;
+  }
+  .searchbutton{
+    display: hidden;
+  }
+  .catagory-info{
+    gap: 20px;
+  }
+}
+@media only screen 
+and (min-device-width : 460px) 
+and (max-device-width : 768px) {
+  .start{
+    flex-direction: column;
+  }
+  .para-cata{
+    font-size: 16px;
+  }
+  .commen{
+     font-size: 10px;
+  }
+  .searchbutton{
+    display: flex;
+  }
+  .catagory-info{
+    gap: 20px;
+  }
+}
   
  
   

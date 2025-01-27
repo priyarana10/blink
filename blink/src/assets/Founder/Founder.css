@@ -2,19 +2,18 @@
     padding: 100px;
 }
 .ones{
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 80px;
-    padding: 100px;
-    align-items: center;
+    /* justify-content: space-between; */
 }
 .found img{
-    width: 350px;
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
+    width: 365px;
+    /* height: 100%; */
+    object-fit:cover;
+    object-position: top;
     border-radius: 20px;
     box-shadow: 0px 10px 20px gray;
 }
@@ -33,6 +32,7 @@
     font-weight: 300;
     line-height: normal;
     margin-top: 30px;
+    justify-content: center;
 }
 .facebo{
     width: 40px;
@@ -40,61 +40,106 @@
 .icon{
     list-style: none;
     display: inline;
-    margin-left: 20px;
-    /* align-items: left; */
+    margin-right: 20px;
 }
 .social{
     margin-top: 30px;
     /* gap: 20px; */
     
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .founder {
+      padding: 50px 20px; 
+    }
+  
+    .ones {
+      flex-direction: column; 
+      gap: 40px; 
+    }
+  
+    .found img {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .hed {
+      font-size: 30px; 
+    }
+  
+    .logs,
+    .sen {
+      font-size: 16px; 
+    }
+  
+    .facebo {
+      width: 30px; 
+    }
+  }
+ 
+@media only screen 
+and (min-device-width : 460px) 
+and (max-device-width : 768px) {
+  .founder {
+    padding: 50px 20px; 
+  }
 
-@media (max-width: 468px) {
-    .founder {
-      padding: 50px 20px;
-    }
-  
-    .ones {
-      flex-direction: column;
-      gap: 50px;
-      padding: 50px 20px;
-    }
-  
-    .found img {
-      width: 250px;
-      height: 300px;
-    }
-  
-    .hed {
-      font-size: 32px;
-    }
-  
-    .logs, .sen {
-      font-size: 16px;
-    }
+  .ones {
+    flex-direction: column; 
+    gap: 40px; 
+  }
+
+  .found img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .hed {
+    font-size: 30px; 
+  }
+
+  .logs,
+  .sen {
+    font-size: 16px; 
+  }
+
+  .facebo {
+    width: 30px; 
   }
   
-  @media (max-width: 320px) {
-    .founder {
-      padding: 30px 10px;
-    }
-  
-    .ones {
-      gap: 30px;
-      padding: 30px 10px;
-    }
-  
-    .found img {
-      width: 200px;
-      height: 250px;
-    }
-  
-    .hed {
-      font-size: 28px;
-    }
-  
-    .logs, .sen {
-      font-size: 14px;
-    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .founder {
+    padding: 50px 20px; 
   }
+
+  .ones {
+    gap: 40px;
+    padding: 100px; 
+  }
+
+  .found img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .hed {
+    font-size: 30px; 
+  }
+
+  .logs,
+  .sen {
+    font-size: 16px; 
+  }
+
+  .facebo {
+    width: 30px; 
+  }
+  
+}
+
+
 
