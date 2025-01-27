@@ -17,18 +17,18 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <Home/>
+    {/* <Navbar/> */}
+    {/* <Home/> */}
     <Cards/>
     <About/>
     <Founder/>
     <Save/>
     <Causes/>
     <News/>
-    <Customer/>
-    <Contact/>
-    <Footer/>
-    <Copyright/>
+    {/* <Customer/> */}
+    {/* <Contact/> */}
+    {/* <Footer/> */}
+    {/* <Copyright/> */}
     </>
   )
 }

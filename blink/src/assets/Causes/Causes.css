@@ -78,6 +78,7 @@
     font-weight: 800;
     color: rgb(91, 193, 172);
     line-height: 0.40;
+    letter-spacing: 0.20;
 }
 .button{
     text-align: center;
@@ -105,96 +106,32 @@
     background-color: rgb(91, 193, 172);
     transition: 0.3s;
 }
-@media (max-width: 720px) {
-    .center {
-      flex-direction: column;
-      gap: 30px;
-    }
-  
-    .headcause {
-      font-size: 36px;
-    }
-  
-    .causes img {
-      height: 50%;
-    }
-  
-    .all {
-      padding: 25px;
-    }
-  
-    .grap {
-      font-size: 18px;
-    }
-  
-    .rates {
-      flex-direction: column;
-    }
-  
-    .educat {
-      font-size: 20px;
-    }
-  
-    .donat {
-      font-size: 16px;
-      padding: 10px 15px;
-    }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 468px) {
+  .center{
+    flex-direction: column;
   }
-  
-  @media (max-width: 468px) {
-    .center {
-      gap: 20px;
-    }
-  
-    .headcause {
-      font-size: 30px;
-    }
-  
-    .causes img {
-      height: 40%;
-    }
-  
-    .all {
-      padding: 20px;
-    }
-  
-    .grap {
-      font-size: 16px;
-    }
-  
-    .educat {
-      font-size: 18px;
-    }
-  
-    .donat {
-      font-size: 14px;
-      padding: 8px 12px;
-    }
+  .rates{
+    font-size: 16px;
   }
-  
-  @media (max-width: 320px) {
-    .headcause {
-      font-size: 24px;
-    }
-  
-    .causes img {
-      height: 30%;
-    }
-  
-    .all {
-      padding: 15px;
-    }
-  
-    .grap {
-      font-size: 14px;
-    }
-  
-    .educat {
-      font-size: 16px;
-    }
-  
-    .donat {
-      font-size: 12px;
-      padding: 6px 10px;
-    }
+  .educat{
+    line-height: normal;
   }
+  .grap{
+    font-size: 16px;
+  }
+
+}
+@media only screen 
+and (min-device-width : 460px) 
+and (max-device-width : 768px) {
+  .center{
+    flex-direction: column;
+  }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    
+}
