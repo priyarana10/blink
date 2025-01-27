@@ -11,6 +11,7 @@ import News from './assets/News/News'
 import Customer from './assets/Customer/Customer'
 import Footer from './assets/Footer/Footer'
 import Contact from './assets/Contact/Contact'
+import Copyright from './assets/Copyright/Copyright'
 function App() {
  
 
@@ -27,6 +28,7 @@ function App() {
     <Customer/>
     <Contact/>
     <Footer/>
+    <Copyright/>
     </>
   )
 }
