@@ -7,7 +7,7 @@ const Save = () => {
                 <div className="save">
                     <div className="tex2">
                         <h1 className="impact">
-                            Make an Inspect. <br></br>save lives. </h1>
+                            Make an Inspect.<br></br> Save lives. </h1>
                     </div>
                     <div className="tex3">
                         <a href="" className="donations">Make Donations</a>

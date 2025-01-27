@@ -29,7 +29,7 @@
 }
 .catagory-lifestyle{
     background-color: #5a6f80;
-    width: 102%;
+    width: auto;
     padding: 10px 20px;
     color: white;
     /* padding: 15px; */
@@ -190,64 +190,84 @@
 .subs:hover{
     background-color:rgb(91, 193, 172) ;
 }
-@media (max-width: 768px) {
-    .container {
+@media (max-width: 320px) and
+ (max-width: 768px) {
+    .start {
       flex-direction: column;
       align-items: center;
-      padding: 50px 20px;
+      gap: 50px;
     }
   
-    .logo-side img {
-      margin-bottom: 20px; 
+    .left-side, .right-side {
+      width: 100%;
+      max-width: none;
     }
   
-    .direction {
-      margin-top: 40px;
+    .latest {
+      font-size: 40px;
+      text-align: center;
     }
   
-    .lins {
-      column-count: 1; 
+    .catagory-img {
+      width: 100%; 
     }
+  
+    .catagory-info {
+      flex-direction: column;
+      align-items: flex-start; 
+      gap: 20px;
+    }
+  
+    .searchbutton button {
+      margin-top: 50px;
+    }
+  
+    .placeholder {
+      width: 100%;
+    }
+  
+    .News-lists, .News-lists2 {
+      flex-direction: column; 
+    }
+  
+    .newss {
+      max-width: 100%; 
+    }
+    .latest {
+        font-size: 28px;
+      }
+    
+      .catagory-tittle {
+        font-size: 20px;
+      }
+    
+      .commen {
+        font-size: 16px;
+      }
+    
+      .catas {
+        font-size: 18px;
+      }
   }
   
   @media (max-width: 468px) {
-    .container {
-      padding: 30px 10px;
+    .latest {
+      font-size: 32px;
     }
   
-    .logo-side img {
-      width: 80px; 
+    .catagory-tittle {
+      font-size: 24px;
     }
   
-    .lins {
-      font-size: 16px;
+    .commen {
+      font-size: 18px;
     }
   
-    .get-direction {
-      padding: 10px 15px;
+    .catas {
+      font-size: 20px;
     }
   }
   
-  @media (max-width: 320px) {
-    .backg {
-      height: auto; 
-    }
+ 
   
-    .container {
-      padding: 20px 5px;
-    }
-  
-    .logo-side img {
-      width: 60px; 
-    }
-  
-    .lins {
-      font-size: 14px;
-    }
-  
-    .get-direction {
-      padding: 8px 12px;
-    }
-  }
-
-
+ 
