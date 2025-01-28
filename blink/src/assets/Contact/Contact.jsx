@@ -45,7 +45,9 @@ const Contact = () => {
           <div className="side-two">
             <div className="list-news2">
               <form action="">
-                <h2 className="catas">Newsletter Form</h2>
+                <h2 className="catas">Contact Form</h2>
+                <p className='send-email'>
+                Or, you can just send an email: info@charity.org</p>
                 <div className="fullname">
                   <input type="text" className="email1" placeholder='Name' />
                   <input type="text" className="email1" placeholder='Surname' />

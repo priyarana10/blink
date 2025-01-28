@@ -104,7 +104,7 @@ const News = () => {
 
 
 
-                        <div className="News-lists2">
+                        <div className="News-lissts2">
                             <img src="public/volunteer-cleaning.jpg" alt="" className="newss" />
                             <div className="right-head">
                                 <h2 className='Food-Donation'>
