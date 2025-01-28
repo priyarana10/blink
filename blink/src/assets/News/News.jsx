@@ -148,13 +148,13 @@ const News = () => {
                         <a href="" className="tags">Poverty</a>
                         <a href="" className="tags">Clean Water</a>
 
-                        <div className="list-news">
-                            <form action="">
-                                <h2 className="catas">Newsletter Form</h2>
+                        {/* <div className="list-news"> */}
+                            <form action="" className="list-news">
+                                <p className="catas4">Newsletter Form</p>
                                 <input type="text" placeholder="Email Address" className="email" />
                                 <button className="subs">Subscribe</button>
                             </form>
-                        </div>
+                        {/* </div> */}
 
 
 
