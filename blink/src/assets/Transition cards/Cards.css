@@ -21,16 +21,19 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    transition: all 0.5s;
 }
 .text{
     font-size: 30px;
     text-align: center;
     align-items: center;
     letter-spacing: 0.3px;
+    transition: all 0.5s;
     color: rgb(91, 193, 172);
 }
 .imgs{
     padding: 33px;
+    transition: all 0.5s;
     /* align-items: center; */
     margin-left: 50px;
     /* transition: ease-in 0.4s; */

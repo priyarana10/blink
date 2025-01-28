@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    color: #5a6f80;
 }
 .nav{
     background-color: white;
@@ -38,7 +39,7 @@ body{
     line-height: 1;
 }
 small{
-    color: black;
+    color: #5a6f80;
     font-size: 15px;
 }
 .list-ites:hover{
@@ -49,7 +50,7 @@ small{
    padding: 15px 25px;
     border-radius: 30px;
     font-size: 16px;
-    border: 1px solid #f0f8ff;
+    border: 2px solid #f0f8ff;
     
 }
 .donatess:hover{

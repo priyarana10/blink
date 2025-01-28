@@ -6,16 +6,10 @@
     padding-bottom: 100px;
 }
 .page{
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     gap: 30px;
-}
-.leftside{
-    /* max-width: 637px; */
-}
-.rightside{
-    /* max-width: 750px; */
 }
 .screen{
     width: 100%;

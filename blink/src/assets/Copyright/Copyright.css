@@ -1,6 +1,8 @@
 .copy{
     background-color: #768ba0;
     padding: 30px;
+    width: auto;
+    
 }
 .copies{
     max-width: 1300px;
@@ -18,5 +20,21 @@
 }
 .copyright{
     font-size: 20px;
+    color: black;
     font-weight: 300px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 468px){
+    .copies{
+        flex-direction: column;
+    }
+    .copyright{
+        font-size: 20px;
+        /* flex: 0 0 auto; */
+    }
+    .next-icons{
+        width: 14px;
+        height: auto;
+    }
 }
