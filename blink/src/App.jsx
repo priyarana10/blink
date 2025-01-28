@@ -28,7 +28,7 @@ function App() {
     <Customer/>
     <Contact/>
     <Footer/>
-    <Copyright/>
+    {/* <Copyright/> */}
     </>
   )
 }

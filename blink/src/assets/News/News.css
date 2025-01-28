@@ -10,6 +10,7 @@
 }
 .right-side{
     max-width: 500px;
+    margin-top: 80px;
 }
 .latest{
     font-size: 50px;
@@ -54,6 +55,7 @@
 .catagory-info-date{
     display: flex;
     gap: 10px;
+    /* margin-top: -25px; */
     padding-bottom: 0;
 }
 .admin{
@@ -97,8 +99,8 @@
     margin-top: 50px;
 }
 .placeholder{
-    width: 400px;
-    height: 50px;
+    width: 100%;
+    /* height: 50px; */
     background-color: #f0f8ff;
     font-size: 20px;
     border: none;
@@ -234,6 +236,9 @@ and (max-device-width : 480px) {
   }
   .catagory-info{
     gap: 20px;
+  }
+  .right-side{
+    justify-content: center;
   }
 }
 @media only screen 
