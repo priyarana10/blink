@@ -39,7 +39,7 @@ body{
     line-height: 1;
 }
 small{
-    color: #5a6f80;
+    color:#5a6f80 ;
     font-size: 15px;
 }
 .list-ites:hover{
@@ -50,7 +50,7 @@ small{
    padding: 15px 25px;
     border-radius: 30px;
     font-size: 16px;
-    border: 2px solid #f0f8ff;
+    border: 2px solid #5a6f80;
     
 }
 .donatess:hover{

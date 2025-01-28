@@ -34,18 +34,13 @@
 .imgs{
     padding: 33px;
     transition: all 0.5s;
-    /* align-items: center; */
     margin-left: 50px;
-    /* transition: ease-in 0.4s; */
 }
 .card1{
     width: 300px;
     align-items: center;
     cursor: pointer;
 }
-/* .imgs:hover{
-    transform: scale(0.75);
-} */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
@@ -55,7 +50,6 @@ and (max-device-width : 480px) {
   .cards{
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
   }
   .card1{
     justify-content: center;

@@ -87,7 +87,7 @@ const News = () => {
                         </div>
 
 
-                        <div className="News-lists">
+                        <div className="News-lissts2">
 
                             <img src="public/doctor.jpg" alt="" className="newss" />
                             <div className="right-head">
