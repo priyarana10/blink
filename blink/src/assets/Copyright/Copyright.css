@@ -38,7 +38,8 @@ and (max-device-width : 468px){
         /* flex: 0 0 auto; */
     }
     .next-icons{
-        width: 14px;
+        flex-direction: column;
+        width: 24px;
         height: auto;
     }
 }

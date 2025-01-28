@@ -29,8 +29,11 @@
 and (min-device-width : 320px) 
 and (max-device-width : 468px) {
   .happ{
-    font-size: 10px;
+    font-size: 11px;
     padding: 50px;
+  }
+  .custm-para{
+    font-size: 16px;
   }
   .custm-lists img{
     width: 23px;
@@ -42,6 +45,6 @@ and (max-device-width : 468px) {
 and (min-device-width : 468px) 
 and (max-device-width : 768px){
    .happ{
-    font-size: 16px;
+    font-size: 20px;
    }
 }

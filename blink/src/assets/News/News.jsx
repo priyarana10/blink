@@ -75,9 +75,9 @@ const News = () => {
                     <form action="">
                         <div className="searchbutton">
                             <input type="search" placeholder='search' name="search" className='placeholder' id="" />
-                            <button className="search-icon">
+                            {/* <button className="search-icon">
                                 <img src="public/search.png" alt="" className="search-ico" />
-                            </button>
+                            </button> */}
                         </div>
 
 
