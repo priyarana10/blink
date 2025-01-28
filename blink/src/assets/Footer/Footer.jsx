@@ -13,7 +13,7 @@ const Footer = () => {
 
 
             <div className="Quick-links">
-                <h4 className="lin">Quick Links</h4>
+                <h4 className="lin3">Quick Links</h4>
 <ul className="lins">
     <li className="q-items">Our story</li>
     <li className="q-items">Newsroom</li>
@@ -26,24 +26,24 @@ const Footer = () => {
 
 
 
-            <div className="contacts">
-                <h5 className="lin">Contact Information</h5>
-                <p className="number">
+            <div className="contacts1">
+                <h5 className="lin2">Contact Information</h5>
+                <p className="number2">
                     <img src="public/phone.png" alt="" />
                      120-240-9600
                 </p>
 
-                <p className="number">
+                <p className="number2">
                     <img src="public/mail.png" alt="" />
                     donate@charity.org
                 </p>
 
-                <p className="number">
+                <p className="number2">
                     <img src="public/loca.png" alt="" />
                     Akershusstranda 20, 0150 Oslo, Norway
                 </p>
-                <div className="direction">
-                 <a href="" className="get-direction">Get Direction</a>
+                <div className="direction2">
+                 <a href="" className="get-direction2">Get Direction</a>
                  </div>
             </div>
            

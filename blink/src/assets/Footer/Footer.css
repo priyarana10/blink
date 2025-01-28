@@ -6,7 +6,8 @@
 }.logo-side img{
     width:100px;
     height: auto;
-    vertical-align: middle;
+    padding-top: 30px;
+    /* vertical-align: middle; */
     max-width: 100%;
 }
 .container{
@@ -16,40 +17,49 @@
     justify-content: space-between;
     padding: 100px;
 }
-.number img{
+.number2 img{
     width: 20px;
     margin-right: 20px;
 }
-.number{
+.number2{
     color: white;
+    font-size: 16px;
 }
-.number:hover{
+.number2:hover{
     color: #5bc1ac;
 }
-.contacts{
+.contacts1{
     cursor: pointer;
 }
 
 .q-items{
     text-decoration: none;
     display: block;
-
 }
 .q-items:hover{
     color: #5bc1ac;
 }
-.lin{
+.lin2{
+    margin-top:40px;
     font-size: 30px;
     color: #5bc1ac;
+
+}
+.lin3{
+ 
+  font-size: 30px;
+  color: #5bc1ac;
+
 }
 .lins{
     column-count: 2;
     font-size: 20px;
+    padding-left: 0;
     line-height: 2;
     justify-content: space-between;
     color: white;
 }
-.get-direction{
+.get-direction2{
     background: #5a6f80;
     border: 2px solid transparent;
     padding: 15px 25px;
@@ -58,10 +68,11 @@
     border-radius: 100px;
     
 }
-.direction{
+
+.direction2{
     margin-top: 70px;
 }
-.get-direction:hover{
+.get-direction2:hover{
     background: #5bc1ac;
 }
 @media only screen 

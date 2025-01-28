@@ -21,13 +21,12 @@ const Causes = () => {
                                 </div>
                                 <div className="rates">
                                     <p className="raised">
-                                        <strong>Raised:</strong>
+                                        <strong>Raised: </strong>
                                         $18,500
                                     </p>
                                     <p className="goal">
                                         <strong>
-                                            Goal:
-                                        </strong>
+                                            Goal: </strong>
                                         $32,000
                                     </p>
                                 </div>
@@ -55,13 +54,12 @@ const Causes = () => {
                                 </div>
                                 <div className="rates">
                                     <p className="raised">
-                                        <strong>Raised:</strong>
+                                        <strong>Raised: </strong>
                                         $27,600
                                     </p>
                                     <p className="goal">
                                         <strong>
-                                            Goal:
-                                        </strong>
+                                            Goal: </strong>
                                         $60,000
                                     </p>
                                 </div>
@@ -90,13 +88,12 @@ const Causes = () => {
                                 </div>
                                 <div className="rates">
                                     <p className="raised">
-                                        <strong>Raised:</strong>
+                                        <strong>Raised: </strong>
                                         $84,600
                                     </p>
                                     <p className="goal">
                                         <strong>
-                                            Goal:
-                                        </strong>
+                                            Goal: </strong>
                                         $100,000
                                     </p>
                                 </div>
