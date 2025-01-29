@@ -31,7 +31,7 @@ const Cards = () => {
                     <div className="card1">
                         <img src="public/scholarship.png" alt="" className='imgs' />
                         <p className="text">
-                            <strong>Scholarship</strong> program
+                            <strong>Scholarship</strong> Program
                         </p>
                     </div>
                 </div>
