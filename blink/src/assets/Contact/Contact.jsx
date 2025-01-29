@@ -19,7 +19,7 @@ const Contact = () => {
 
 
             <div className="contacts">
-              <h5 className="lin">Contact Information</h5>
+              <h5 className="catas4">Contact Information</h5>
               <p className="number">
                 <img src="public/phone.png" alt="" />
                 120-240-9600
@@ -45,7 +45,7 @@ const Contact = () => {
           <div className="side-two">
             <div className="list-news2">
               <form action="">
-                <h2 className="catas">Contact Form</h2>
+                <h2 className="catas3">Contact Form</h2>
                 <p className='send-email'>
                 Or, you can just send an email: info@charity.org</p>
                 <div className="fullname">
