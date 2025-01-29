@@ -30,6 +30,7 @@ h3 .catas1{
 h1.numm{
     margin: 0;
     padding: 0;
+    object-fit: cover;
 }
 h5.catas4{
     margin-top: 20px;
