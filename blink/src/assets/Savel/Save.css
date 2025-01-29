@@ -16,13 +16,14 @@
 .save{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* padding: 50px; */
 }
 .tex3{
     font-size: 16px;
     padding: 50px;
     gap: 20px;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 .tex3 a{
@@ -31,14 +32,16 @@
     font-weight: 400;
 }
 .donations{
-   padding: 20px;
+   /* padding: 20px; */
     color: gray;
+    margin-right: 20px;
 }
 .donations2{
     /* margin-right: 30px; */
     border: solid 1px transparent;
     background-color: grey;
     color: white;
+    text-align: center;
     border-radius: 30px;
     padding:  20px;
     line-height: normal;

@@ -36,19 +36,17 @@
     background-color: white;
     border-radius: 20px;
     padding-top: 20px;
+    align-items: center;
     width: 100%;
-    height: auto;
-    line-height: 0.70;
+    /* vertical-align: middle; */
+    /* justify-content: center; */
  
 }
 
 .one1{
     background-color: white;
     border-radius: 20px;
-    padding-left: 20px;
-    padding-top: 1px;
-    padding-bottom: 20px;
-    padding-right: 40px;
+    padding: 20px;
    
     
 }
@@ -56,6 +54,8 @@
     color: rgb(91, 193, 172);
     font-size: 40px;
     text-align: center;
+    padding: 30px;
+    margin-top: 2px;
 }
 .num1{
     font-size: 16px;
