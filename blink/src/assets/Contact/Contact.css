@@ -18,6 +18,7 @@
     background-color: #f0f8ff;
     border-radius: 20px;
     height: auto;
+    align-items: center;
     justify-content: center;
     /* width: 100%; */
     padding: 40px;
