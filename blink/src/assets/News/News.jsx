@@ -96,7 +96,7 @@ const News = () => {
                                 </h2>
                                 <div className="catagory-info-date">
                                     <img src="public/calander.png" alt="" className="admin" />
-                                    <p className="commen">October 20,2036</p>
+                                    <p className="commen1">October 20,2036</p>
                                 </div>
 
                             </div>
@@ -112,7 +112,7 @@ const News = () => {
                                 </h2>
                                 <div className="catagory-info-date">
                                     <img src="public/calander.png" alt="" className="admin" />
-                                    <p className="commen">October 20,2036</p>
+                                    <p className="commen1">October 20,2036</p>
                                 </div>
 
                             </div>
