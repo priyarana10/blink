@@ -39,9 +39,6 @@
     align-items: center;
     width: 100%;
     line-height: 1;
-    /* vertical-align: middle; */
-    /* justify-content: center; */
- 
 }
 
 .one1{
@@ -55,20 +52,14 @@
     color: rgb(91, 193, 172);
     font-size: 40px;
     text-align: left;
-    /* padding: 30px; */
-    /* margin-top: 2px; */
 }
 .num1{
     font-size: 16px;
     font-weight: 300;
-    /* text-align: left; */
-    /* padding: 40px; */
-    /* text-align: center; */
 }
 .secondline{
     color:rgb(91, 193, 172) ;
     font-size: 20px;
-    /* line-height: 0.20; */
 }
 .heading{
     color: darkgrey;
@@ -77,10 +68,9 @@
 .head2{
     color: rgb(91, 193, 172);
     font-size: 30px;
-    /* line-height: 0.20;  */
 }
 .para{
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.75;
 }
 .ull{

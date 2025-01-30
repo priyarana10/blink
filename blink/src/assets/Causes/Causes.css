@@ -6,7 +6,7 @@
 }
 .center{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -65,8 +65,8 @@
     width: 100%;
 }
 .grap{
-    font-size: 20px;
-    line-height: 1;
+    font-size: 18px;
+    /* line-height: 1; */
 }
 .rates{
     display: flex;
